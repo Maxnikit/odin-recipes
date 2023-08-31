@@ -1,3 +1,16 @@
+/* START. Copied this code from mdn */
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+/* END of copied code from mdn */
+/* * {
+  border: 2px solid red;
+} */
 html {
   background-color: rgb(157, 180, 221);
   font-family: "Times New Roman", sans-serif;
@@ -19,4 +32,19 @@ html {
 .recipe,
 .title {
   font-size: 50px;
+}
+.recipe_description,
+.ingredients_title,
+.steps_title, .recipe.title, .recipe_image {
+  border: 1px solid black;
+  width:500px;
+  margin: 10px;
+  background-color: rgb(183, 183, 233);
+  padding: 8px;
+}
+.recipe_card {
+  border: 10px solid black;
+  margin: 0 left;
+  width: 550px;
+  background-color: white;
 }
