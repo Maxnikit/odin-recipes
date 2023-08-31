@@ -35,9 +35,11 @@ html {
 }
 .recipe_description,
 .ingredients_title,
-.steps_title, .recipe.title, .recipe_image {
+.steps_title,
+.recipe.title,
+.recipe_image {
   border: 1px solid black;
-  width:500px;
+  width: 500px;
   margin: 10px;
   background-color: rgb(183, 183, 233);
   padding: 8px;
